@@ -3,18 +3,15 @@ package linkedListDSA;
 public class Lesson1Main {
     Node head;
     private int size;
-
     class Node {
         int data;
         Node next;
-
         Node(int data) {
             this.data = data;
             this.next = null;
             size++;
         }
     }
-
     // add first node
     public void addFirstNode(int data) {
         Node newNode = new Node(data);

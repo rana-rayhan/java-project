@@ -5,7 +5,6 @@ public class PalindromeList {
     public class ListNode {
         int val;
         ListNode next;
-
         ListNode(int val) {
             this.val = val;
             this.next = null;
@@ -23,7 +22,6 @@ public class PalindromeList {
         }
         currNode.next = newNode;
     }
-
     // find middle of the list
     public ListNode findMiddle(ListNode h) {
         ListNode hare = h;
@@ -65,8 +63,6 @@ public class PalindromeList {
         }
         return true;
     }
-
-
     public void printList() {
         if (head == null) {
             System.out.println("List is empty");
