@@ -7,7 +7,7 @@ public class Main {
         System.out.println(str);
 
         HashSet<String> set = new HashSet<>();
-        for (int i = 0; i <str.length() ; i++) {
+        for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
             set.add(String.valueOf(c));
         }
